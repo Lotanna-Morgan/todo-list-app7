@@ -1,0 +1,87 @@
+/* You can add global styles to this file, and also import other style files */
+.btn-info {
+    background: linear-gradient(0.25turn, #1c7180, #176b56, #237fca);
+}
+
+.fa-pencil-alt {
+    padding-left: 10px;
+}
+
+footer {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: lavender;
+}
+
+.form-group label {
+    color: grey;
+}
+
+.form-group label i {
+    padding-left: 7px;
+}
+
+.form-group input {
+    font-weight: 500;
+}
+
+.form-group input::placeholder {
+    color: #c0bdbd;
+    font-weight: 300;
+}
+
+input.invalid {
+    border-color: red;
+}
+
+input[type=checkbox] {
+    height: 30px;
+    width: 30px;
+    background-color: #5bcd3e !important;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    margin-left: 10px;
+}
+
+input[type="checkbox"]::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    color: white;    
+}
+
+input[type="checkbox"]:checked {
+    background-color: #5bcd3e;
+}
+
+input[type="checkbox"]:checked::after {
+    display: block;
+}
+
+input[type="checkbox"]:hover {
+    background-color: #a5a5a5;
+}
+
+.jumbotron {
+    background: linear-gradient(0.25turn, #1c7180, #176b56, #237fca);
+    margin-bottom: 25px;
+}
+
+#listHolder {
+    overflow: scroll;
+    height: 700px;
+    margin-bottom: 25px;
+}
+
+.listHolderItems {
+    -moz-box-shadow: 2px 2px 3px #ccc;
+    -webkit-box-shadow: 2px 2px 3px #ccc;
+    box-shadow: 3px 7px 7px 5px #ccc;
+    border-radius: 10px;
+    margin: 10px 3px 25px 5px;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Poppings, "Helvetica Neue", sans-serif; }
